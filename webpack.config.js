@@ -27,5 +27,22 @@ module.exports = {
     devServer: {
         open: true,
         port: 8888,
+    },
+    resolve: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx']
+    },
+    externals: {
+        "react": {
+            commonjs: 'react',
+            commonjs2: 'react',
+            amd: "react",
+            root: "React",
+        },
+        "react-dom": {
+            commonjs: 'react-dom',
+            commonjs2: 'react-dom',
+            amd: "react-dom",
+            root: "ReactDOM",
+        }
     }
 }
