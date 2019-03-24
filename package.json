@@ -1,6 +1,6 @@
 {
-  "name": "garen-ui",
-  "version": "1.0.0",
+  "name": "garen-ui-001",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/lib/index",
   "types": "dist/lib/index",
