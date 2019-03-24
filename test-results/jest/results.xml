@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" time="5.237">
+  <testsuite name="tests classes fn" errors="0" failures="0" skipped="0" timestamp="2019-03-24T09:25:52" time="2.069" tests="5">
+    <testcase classname="tests classes fn accept one classNames" name="tests classes fn accept one classNames" time="0.008">
+    </testcase>
+    <testcase classname="tests classes fn accept two classNames" name="tests classes fn accept two classNames" time="0">
+    </testcase>
+    <testcase classname="tests classes fn accept undefined and result have no undefined" name="tests classes fn accept undefined and result have no undefined" time="0.001">
+    </testcase>
+    <testcase classname="tests classes fn accept any value and result have no strange value" name="tests classes fn accept any value and result have no strange value" time="0">
+    </testcase>
+    <testcase classname="tests classes fn accept zero className" name="tests classes fn accept zero className" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="button" errors="0" failures="0" skipped="0" timestamp="2019-03-24T09:25:52" time="2.081" tests="1">
+    <testcase classname="button button is a div" name="button button is a div" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="test icon component" errors="0" failures="0" skipped="0" timestamp="2019-03-24T09:25:52" time="2.253" tests="2">
+    <testcase classname="test icon component render successfully" name="test icon component render successfully" time="0.017">
+    </testcase>
+    <testcase classname="test icon component icon onClick fn called" name="test icon component icon onClick fn called" time="0.037">
+    </testcase>
+  </testsuite>
+  <testsuite name="test add fn" errors="0" failures="0" skipped="0" timestamp="2019-03-24T09:25:55" time="0.324" tests="1">
+    <testcase classname="test add fn add(1,2) equal 3" name="test add fn add(1,2) equal 3" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

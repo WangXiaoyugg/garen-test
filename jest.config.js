@@ -8,7 +8,7 @@ module.exports = {
     coverageDirectory: "coverage",
     coverageReporters: ['text', 'lcov'],
 
-    reporters: ["default"],
+    reporters: ["default", "jest-junit"],
     moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'],
     moduleDirectories: ['node_modules'],
     globals: {
