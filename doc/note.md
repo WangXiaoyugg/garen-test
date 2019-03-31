@@ -11,8 +11,17 @@
 - 选择性的加版本号
 - circle-ci tag filter
 - `js < jsx , ts < tsx`, X表示扩展
+- 添加文档和开发网页
     
 ## 静态引入和动态引入
 - 静态引入，能使用tree-shaking做性能优化
    import A from A,import B from B,import C from C
 - 非静态引入，方便，importAll from 'lib'
+
+## 项目搭建总结
+- webpack 环境搭建
+- 基本的icon组件
+- 单元测试
+- 测试覆盖率
+- 自动发布
+  
