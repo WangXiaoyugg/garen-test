@@ -10,7 +10,8 @@
 - 修改config.yml
 - 选择性的加版本号
 - circle-ci tag filter
-
+- `js < jsx , ts < tsx`, X表示扩展
+    
 ## 静态引入和动态引入
 - 静态引入，能使用tree-shaking做性能优化
    import A from A,import B from B,import C from C
