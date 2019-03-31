@@ -9,6 +9,7 @@
 ## 自动发布阶段
 - 修改config.yml
 - 选择性的加版本号
+- circle-ci tag filter
 
 ## 静态引入和动态引入
 - 静态引入，能使用tree-shaking做性能优化
