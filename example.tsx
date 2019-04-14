@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import IconExample from './examples/icon.example'
 import ButtonExample from './examples/button.example'
+import DialogExample from './examples/dialog.example'
+
 
 import {HashRouter as Router, Link, Route} from 'react-router-dom'
 
@@ -22,12 +24,16 @@ ReactDOM.render(
                   <li>
                     <Link to="/button">Button</Link>
                   </li>    
+                  <li>
+                    <Link to="/dialog">Dialog</Link>
+                  </li>     
               </ul>
            </div>
        </aside>
        <main>
            <Route path="/icon" component={IconExample}></Route>
            <Route path="/button" component={ButtonExample}></Route> 
+           <Route path="/dialog" component={DialogExample}></Route> 
        </main>
     </Router>
 , document.querySelector("#root"))
